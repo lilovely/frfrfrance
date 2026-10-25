@@ -86,6 +86,8 @@ main.article{display:grid; grid-template-columns:220px 1fr; gap:48px; padding:44
 article h2{font-family:'Fraunces',serif; font-weight:500; font-size:28px; margin:44px 0 6px; display:flex; align-items:baseline; gap:12px;}
 article h2 i{width:7px; height:7px; border-radius:50%; background:var(--route); flex:none;}
 article p{margin:0 0 18px; max-width:68ch;}
+article p a{text-decoration:underline; text-decoration-color:var(--line); text-underline-offset:3px;}
+article p a:hover{color:var(--stamp); text-decoration-color:currentColor;}
 article .lede{font-size:20px; color:var(--ink-soft); max-width:60ch;}
 .market{background:var(--card); border:1px solid var(--line); border-radius:2px; padding:22px 24px; margin:18px 0 30px; max-width:68ch;}
 .market .name{font-family:'Fraunces',serif; font-weight:600; font-size:20px; margin-bottom:6px;}
