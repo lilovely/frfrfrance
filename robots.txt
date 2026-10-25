@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://frfrfrance.com/sitemap.xml
+Sitemap: https://frfrfrance.fr/sitemap.xml
