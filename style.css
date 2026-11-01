@@ -36,7 +36,7 @@ header.site{border-bottom:1px solid var(--line); padding:18px 0;}
 .eyebrow .dot{width:6px; height:6px; border-radius:50%; background:currentColor;}
 .tourist .eyebrow,.tourist .enter{color:var(--route);}
 .expat .eyebrow,.expat .enter{color:var(--stamp);}
-.track h2{font-family:'Fraunces',serif; font-weight:500; font-size:clamp(26px,3vw,34px); margin:0 0 12px; line-height:1.1; max-width:15em;}
+.track h2{font-family:'Fraunces',serif; font-weight:500; font-size:clamp(26px,3vw,34px); margin:0 0 12px; line-height:1.1; max-width:15em; padding-right:78px;}
 .lede-sm{color:var(--ink-soft); font-size:16.5px; max-width:42ch; margin:0 0 22px;}
 .list{list-style:none; margin:0 0 26px; padding:0;}
 .list li{padding:11px 0; border-top:1px solid var(--line); display:flex; justify-content:space-between; align-items:baseline; font-size:16px;}
@@ -122,7 +122,7 @@ footer.site{border-top:1px solid var(--line); padding:28px 0 60px; font-family:'
 @media (max-width:820px){
   .tracks{grid-template-columns:1fr;}
   .track:first-child{border-right:none; border-bottom:1px solid var(--line);}
-  .mark{display:none;}
+  .mark{display:none;} .track h2{padding-right:0;}
   .hero{grid-template-columns:1fr;} .stamp{justify-self:start;}
   main.article{grid-template-columns:1fr;}
   .carnet{position:static; display:flex; flex-wrap:wrap; gap:0 32px;}
@@ -130,3 +130,15 @@ footer.site{border-top:1px solid var(--line); padding:28px 0 60px; font-family:'
 }
 @media (max-width:600px){.grid{grid-template-columns:1fr;} .track{padding:32px 22px;}}
 @media (prefers-reduced-motion:reduce){.card{transition:none;} html{scroll-behavior:auto;}}
+
+/* гид: развороты блокнота с надписями поверх */
+.spread{position:relative; container-type:inline-size; margin:26px 0 34px; max-width:880px;}
+.spread img{display:block; width:100%; height:auto;}
+.spread .lb{position:absolute; font-family:'Neucha','Comic Sans MS',cursive; text-transform:uppercase; color:#141414; font-size:2.6cqw; line-height:1.18; white-space:nowrap; letter-spacing:.02em; -webkit-text-stroke:.012em #141414;}
+.spread .lb.sm{font-size:1.75cqw; line-height:1.4;}
+.spread .lb.xs{font-size:1.95cqw;}
+.spread .lb.r{text-align:right;}
+.spread .tt{position:absolute; font-family:'Marck Script','Brush Script MT',cursive; color:#2b2b2b; font-size:4.6cqw; line-height:1.2; white-space:nowrap;}
+.spread .tt span{display:block; padding-left:1.6em;}
+.guide-time{font-family:'IBM Plex Mono',monospace; font-size:13px; letter-spacing:.06em; color:var(--route); text-transform:uppercase; margin:26px 0 6px;}
+.guide-time + p{margin-top:0;}
