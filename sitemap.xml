@@ -1,28 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://frfrfrance.fr/</loc>
-    <lastmod>2026-10-25</lastmod>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://frfrfrance.fr/paris-marches-puces.html</loc>
-    <lastmod>2026-10-25</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://frfrfrance.fr/strikes-france.html</loc>
-    <lastmod>2026-10-25</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://frfrfrance.fr/strikes-france-history.html</loc>
-    <lastmod>2026-10-25</lastmod>
-    <priority>0.8</priority>
-  </url>
-<url><loc>https://frfrfrance.fr/turistam.html</loc></url>
-  <url><loc>https://frfrfrance.fr/aeroports-paris.html</loc></url>
-  <url><loc>https://frfrfrance.fr/taxi-paris.html</loc></url>
-  <url><loc>https://frfrfrance.fr/metro-paris.html</loc></url>
-  <url><loc>https://frfrfrance.fr/velo-paris-leto.html</loc></url>
+  <url><loc>https://frfrfrance.fr/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://frfrfrance.fr/turistam.html</loc><lastmod>2026-11-01</lastmod></url>
+  <url><loc>https://frfrfrance.fr/velo-paris-leto.html</loc><lastmod>2026-11-01</lastmod></url>
+  <url><loc>https://frfrfrance.fr/metro-paris.html</loc><lastmod>2026-11-01</lastmod></url>
+  <url><loc>https://frfrfrance.fr/taxi-paris.html</loc><lastmod>2026-11-01</lastmod></url>
+  <url><loc>https://frfrfrance.fr/aeroports-paris.html</loc><lastmod>2026-11-01</lastmod></url>
+  <url><loc>https://frfrfrance.fr/strikes-france-history.html</loc></url>
+  <url><loc>https://frfrfrance.fr/strikes-france.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://frfrfrance.fr/paris-marches-puces.html</loc></url>
 </urlset>
